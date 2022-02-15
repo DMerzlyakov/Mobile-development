@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryVariant">@color/button_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="myStyle" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/button_lite</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="operations" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/button_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="expression" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/button_lite</item>
+        <item name="android:gravity">fill_vertical</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="singleLine">true</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:textColorHint">@color/hint</item>
+    </style>
+    <style name="result" >
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/button_lite</item>
+        <item name="android:gravity">fill_vertical</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColorHint">@color/hint</item>
+    </style>
+</resources>
